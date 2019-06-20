@@ -1,0 +1,31 @@
+.stepFourContainer {
+    background-color: aliceblue;
+    display: flex;
+    padding: 75px 15px 75px 15px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media only screen and (min-width: 1110px) {
+    .stepFourContainer {
+        padding-left: calc((100% - 1110px)/2 + 15px);
+        padding-right: calc((100% - 1110px)/2 + 15px);
+    }
+}
+
+.stepFourImage {
+    width: 20rem;
+    object-fit: cover
+}
+
+.message {
+   padding: 25px;
+   width: 500px;
+}
+
+.image {
+  padding: 25px;
+  width: 500px;
+}

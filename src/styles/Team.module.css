@@ -1,0 +1,17 @@
+.container {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+
+.header {
+    text-align: center;
+    font-size: 4rem !important;
+    padding: 50px !important;
+    background-color: #0d1e2e;
+}
+
+.image {
+    height: 10rem !important;
+    width: auto !important;
+}

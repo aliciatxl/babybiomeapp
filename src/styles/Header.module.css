@@ -1,0 +1,12 @@
+* {
+    font-size: 12pt;
+}
+
+.header {
+    margin: 0px !important;
+    border-radius: 0px !important;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1000 !important;
+}
