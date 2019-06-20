@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Container, Header, Divider, Segment, Icon, Button } from 'semantic-ui-react';
 import styles from '../styles/FAQ.module.css';
-import { Link } from 'react-router-dom'
 import PageHeader from './Header.js';
 import Fade from 'react-reveal/Fade';
 import Footer from './Footer';
@@ -51,7 +50,7 @@ class FAQ extends Component {
                                 <Divider section hidden />
                                 <strong>Where will my files be shared to in my cloud storage?</strong><br/>
                                 A folder will be created for Baby Biome in your cloud platform. <br/>
-                                For Dropbox, your files will be synced to a newly created Baby Biome folder in the <a href="https://www.dropbox.com/home/Apps" target="_blank">Apps</a> folder.<br/>
+                                For Dropbox, your files will be synced to a newly created Baby Biome folder in the <a href="https://www.dropbox.com/home/Apps" target="_blank" rel="noopener noreferrer">Apps</a> folder.<br/>
                                 For Google Drive, Box and OneDrive, your files will be synced to a newly created NUSCloud folder in the root of the main directory.
                                 <Divider section hidden />
                                 <strong>Where can I donwnload/ access the app?</strong><br/>

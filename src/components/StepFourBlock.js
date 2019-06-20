@@ -10,7 +10,7 @@ const StepFourBlock = () => (
                 3. View results on mobile app
                 <Divider hidden />
                 <Header.Subheader>
-                    Open the <a href="https://invis.io/AKSF3EESF7V" target="_blank">Baby Biome App</a>.
+                    Open the <a href="https://invis.io/AKSF3EESF7V" target="_blank" rel="noopener noreferrer">Baby Biome App</a>.
                     <Divider hidden  />
                     Click on the sync button at the top right corner.
                     <Divider hidden  /> 

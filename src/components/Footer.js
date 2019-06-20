@@ -15,9 +15,9 @@ const Footer = () => (
             FAQ
         </Menu.Item>
         <Menu.Item>
-            <a href="https://www.facebook.com/" target="_blank"><Icon name="facebook"/></a>
-            <a href="https://twitter.com/" target="_blank"><Icon name="twitter"/></a>
-            <a href="https://www.linkedin.com/company/babybiome/" target="_blank"><Icon name="linkedin"/></a>
+            <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"><Icon name="facebook"/></a>
+            <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer"><Icon name="twitter"/></a>
+            <a href="https://www.linkedin.com/company/babybiome/" target="_blank" rel="noopener noreferrer"><Icon name="linkedin"/></a>
         </Menu.Item>
     </Menu>
 );

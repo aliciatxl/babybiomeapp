@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Image as ImageComponent, Icon, Item, Header, Divider, Container} from 'semantic-ui-react';
+import { Icon, Item, Header, Divider, Container} from 'semantic-ui-react';
 import shimin from '../assets/Team/shimin.png';
 import suyee from '../assets/Team/suyee.png';
 import kevin from '../assets/Team/kevin.png';
@@ -8,7 +8,6 @@ import PageHeader from './Header.js';
 import Footer from './Footer.js';
 import styles from '../styles/Team.module.css';
 import Fade from 'react-reveal/Fade';
-import logo from './logo.png';
 
 class Team extends Component {
     state = {}
