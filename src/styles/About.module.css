@@ -49,3 +49,7 @@
 .subheader {
     font-size: 1.5rem !important;
 }
+
+.stepsContainer {
+    background-color: aliceblue;
+}

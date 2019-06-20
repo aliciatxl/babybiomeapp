@@ -11,7 +11,7 @@ import User from './components/User';
 import NotFoundPage from './components/NotFoundPage';
 
 const App = () => (
-  <BrowserRouter>
+  <BrowserRouter basename="/babybiomeapp">
       <div className="outer_div">
           <Switch>
               <Route path="/" component={Home} exact={true}/>

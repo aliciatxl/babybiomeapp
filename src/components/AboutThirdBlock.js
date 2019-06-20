@@ -11,7 +11,7 @@ const AboutThirdBlock = () => (
                 <Divider hidden />
                 <Header.Subheader>
                     <br />When you sign up with us, we make sure your baby is in good health. 
-                    <br />Just stick the sensor in your baby's feces and we will do the analysis for you!
+                    <br />Follow the instructions on the leaflet provided and the sensor will do the analysis for you!
                     <br />We help you monitor your baby's gut microbiome and notify you when something is amiss.
                     <br />Our customised prebiotics, synbiotics and probiotics are recommended based on the health profile of your baby.
                 </Header.Subheader>

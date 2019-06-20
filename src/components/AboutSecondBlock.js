@@ -12,7 +12,7 @@ const AboutSecondBlock = () => (
                 <Header.Subheader inverted color="grey">
                     <br />You can take the sensor with you anywhere you go, even when you travel!
                     <br />Access the app from any device, be it through your desktop or on your mobile phone.
-                    <br />Share the results with anyone, or on popular social media platforms.
+                    <br />Share the results easily with anyone, through various means such as email and cloud storage.
                 </Header.Subheader>
             </Header>
         </div>

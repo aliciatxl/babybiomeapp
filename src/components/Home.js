@@ -26,7 +26,7 @@ class Home extends Component {
                         <Divider />
                         <div className={styles.button}>
                             {/* <Button size="massive" basic color='white' onClick={this.handleSubmit}>Get Started</Button> */}
-                            <Button size="massive" basic color='white' as={ Link } to="/about">Get Started</Button>
+                            <Button size="massive" basic color='white' as={ Link } to="/user">Get Started</Button>
                         </div>
                         <StepsBlock />
                         <AboutThirdBlock />

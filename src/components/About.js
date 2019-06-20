@@ -17,8 +17,8 @@ class About extends Component {
         return (
             <div >
                 <PageHeader />
-                <div className={styles.outer_container}>
                     <Fade>
+                        <div className={styles.outer_container}>
                         <Container className={styles.container}>
                             <Header className={styles.header}>
                                 Creating the perfect parenting tool
@@ -28,14 +28,13 @@ class About extends Component {
                                 </Header.Subheader>
                             </Header>
                         </Container>
-
+                        </div>
                         <Description />
                         <StepOneBlock />
                         <StepTwoBlock />
                         <StepThreeBlock />
                         <StepFourBlock />
                     </Fade>
-                </div>
                 <Footer />
             </div>
         )
