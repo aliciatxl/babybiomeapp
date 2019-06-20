@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/babybiomeapp/precache-manifest.1c455e76a472faaccf99bcdf4db23d67.js"
+  "/babybiomeapp/precache-manifest.59e33dd9448c60e499d4fc22703e4114.js"
 );
 
 self.addEventListener('message', (event) => {
