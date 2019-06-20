@@ -16,24 +16,26 @@ class Home extends Component {
         return (
             <div>
                 {<PageHeader />}
-                <div className={styles.container}>
+                
                     <Fade>
-                        <Header as='h1' className={styles.header}>
-                            <img className={styles.image} src={logo} alt="BabyBiome"/><br/>
-                            Welcome to BabyBiome
-                            <Header.Subheader className={styles.subHeader}>Transforming baby poop into big insights </Header.Subheader>
-                        </Header>
-                        <Divider />
-                        <div className={styles.button}>
-                            {/* <Button size="massive" basic color='white' onClick={this.handleSubmit}>Get Started</Button> */}
-                            <Button size="massive" basic color='white' as={ Link } to="/user">Get Started</Button>
+                        <div className={styles.container}>
+                            <Header as='h1' className={styles.header}>
+                                <img className={styles.image} src={logo} alt="BabyBiome"/><br/>
+                                Welcome to BabyBiome
+                                <Header.Subheader className={styles.subHeader}>Transforming baby poop into big insights </Header.Subheader>
+                            </Header>
+                            
+                            <Divider />
+                            <div className={styles.button}>
+                                <Button size="massive" basic color='white' as={ Link } to="/user">Get Started</Button>
+                            </div>
                         </div>
                         <StepsBlock />
                         <AboutThirdBlock />
                         <AboutSecondBlock />
                         <AboutFirstBlock />
                     </Fade>
-                </div>
+                
                 <Footer />
             </div>
         )

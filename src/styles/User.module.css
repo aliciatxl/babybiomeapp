@@ -1,0 +1,16 @@
+.outerContainer {
+    background-image: url('../assets/Home/background.png');
+    background-size: cover;
+    padding: 75px;
+}
+
+.container {
+    padding-bottom: 75px;
+    padding-top: 75px;
+    background-color: white;
+}
+
+.formContainer {
+    background-color: aliceblue;
+    padding: 75px;
+}

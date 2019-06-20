@@ -1,6 +1,6 @@
 .outer_container {
     background: url("../assets/About/background.png");
-    background-size: contain;
+    background-size: cover;
 }
 
 .container {

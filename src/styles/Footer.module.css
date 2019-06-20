@@ -1,5 +1,6 @@
 .footer {
     text-align: center !important;
     width: 100%;
-    background-color: aquamarine
+    background-color: aquamarine;
+    margin: 0px !important;
 }

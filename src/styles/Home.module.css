@@ -1,12 +1,10 @@
 .container {
     background-image: url('../assets/Home/background.png');
-    background-size: contain;
-    top: 0;
-    left: 0;
-    width: 100%;
+    background-size: cover;
     /*197px is footer, 54.81px is header*/
-    min-height: calc(100vh - 197px - 54.81px);
-    padding-top: 75px
+    /* min-height: calc(100vh - 197px - 54.81px); */
+    padding-top: 75px;
+    padding-bottom: 75px;
 }
 
 .image {
