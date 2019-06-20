@@ -9,9 +9,10 @@ import Team from './components/Team';
 import FAQ from './components/FAQ';
 import User from './components/User';
 import NotFoundPage from './components/NotFoundPage';
+import PropTypes from 'prop-types';
 
-const App = () => (
-  <BrowserRouter basename="/babybiomeapp">
+const App = ({ base }) => (
+    <BrowserRouter basename={base}>
       <div className="outer_div">
           <Switch>
               <Route path="/" component={Home} exact={true}/>
@@ -25,5 +26,9 @@ const App = () => (
       </div>
   </BrowserRouter>
 );
+
+App.propTypes = {
+    base: PropTypes.string,
+};
 
 export default App;
